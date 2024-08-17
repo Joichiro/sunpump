@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #4C0D16; /* Background collor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px; 
+}
+
+.custom-button {
+    position: absolute;
+    width: 150px; 
+    height: 50px; 
+}
+
+.custom-button img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.custom-button:hover img {
+    transform: scale(1.1);
+}
+
+#dextools-btn {
+    top: 47%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#telegram-btn {
+    top: 55%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#x-btn {
+    top: 63%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
